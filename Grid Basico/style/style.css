@@ -1,0 +1,29 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: 0;
+
+
+}
+
+.container{
+
+	color: #fff;
+	display: grid;
+	/*grid-template-columns: minmax(50px, 500px) repeat(3, 200px); */
+	grid-template-columns: 1fr 2fr 1fr 1fr;
+	grid-template-rows: 100px 100px 100px;
+	grid-column-gap: 5px;
+	grid-row-gap:3px;
+
+}	
+
+.item{
+ 	background-color: firebrick;
+ 	color: #fff;
+ 	padding: 1rem;
+ }
+
+ .item:nth-child(even){
+ 	background-color: tomato;
+ }

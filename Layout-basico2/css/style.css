@@ -1,0 +1,113 @@
+
+
+#container{
+	width: 1200px;
+	margin:0 auto; /* irá centralizar na tela*/
+	display: flex; /*deixa os itens flexiveis*/
+	flex-direction: row;
+	flex-wrap: wrap; /*tenta colocar na mesma linha, caso não tem espaço desce*/
+
+	
+}
+
+header{
+	width: 1200px;
+	height: 185px;
+	background-color: #00CCBB;
+
+}
+
+nav{
+	width: 1200px;
+	height: 70px;
+	background-color: #763b6c;
+
+}
+
+aside{
+	width: 150px;
+	height: 1000px;
+
+}
+
+#as1{
+background-color: #E98A15;
+
+}
+
+#as2{
+
+background-color: #012824;
+
+}
+#container1{
+	width: 900px;
+	height: 1000px;
+	display: flex;
+	animation-direction: row;
+	flex-wrap: wrap;
+
+}
+
+
+#container1 > article{
+	width: 450px;
+	height: 500px;
+
+}
+
+#art1{
+
+	background-color: #a17db5;
+}
+#art2{
+
+	background-color: #E98A15;
+}
+
+#art3{
+	background-color: #011412;
+}
+
+#art4{
+	background-color: #130b02;
+
+}
+
+
+
+
+
+
+#container2{
+	width: 1200px;
+	height: 200px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+#container2 > article{
+ 	width: 600px;
+ 	height: 200px;
+
+}
+
+#art5{
+
+	background-color: #a17db5;
+}
+#art6{
+
+	background-color: #E98A15;
+}
+
+
+
+
+footer{
+	width: 1200px;
+	height: 100px;
+	background-color: #e98a15;
+
+
+}
